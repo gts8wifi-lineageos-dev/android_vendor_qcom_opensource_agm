@@ -23,6 +23,8 @@ cc_library_shared {
         "libagmclient_headers"
     ],
 
+    export_header_lib_headers: ["libagmclient_headers"],
+
     shared_libs: [
         "libagm",
         "libar-gsl",
